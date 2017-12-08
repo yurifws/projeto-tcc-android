@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="25px"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.yurifws.teste.activity.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:paddingLeft="5dp"
+        android:text="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edEmail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_backgroud"
+        android:hint="Email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/strLoginSenha"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_backgroud"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edESenha"
+        android:inputType="textPassword"
+        android:hint="@string/strLoginSenha"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background_button"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorTextButton"
+        android:id="@+id/btnLogin"
+        android:text="@string/strLoginEntrar" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background_button"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorTextButton"
+        android:id="@+id/btnSignup"
+        android:text="@string/strLoginCadastrar" />
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25px"
+    android:orientation="vertical"
+    tools:context="com.example.yurifws.teste.activity.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:hint="Nome"
+                android:id="@+id/txtDetalhesNome"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:hint="Sinopse"
+                android:id="@+id/txtDetalhesSinopse"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:hint="Gênero"
+                android:id="@+id/txtDetalhesGenero"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:hint="Classisficacao"
+                android:id="@+id/txtDetalhesClassificacao"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:hint="Duração"
+                android:id="@+id/txtDetalhesDuracao"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:hint="Endereço"
+                android:text=""
+                android:id="@+id/txtDetalhesEndereco"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

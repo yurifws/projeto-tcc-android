@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppProjetoFirebase</string>
+
+    <!--tela login -->
+    <string name="strLoginSenha">Senha</string>
+    <string name="strLoginEntrar">Entrar</string>
+    <string name="strLoginCadastrar">Cadastrar</string>
+
+    <!--tela cadastro usuario -->
+    <string name="strCadSenha">Senha</string>
+    <string name="strCadConfirmaSenha">Confirmar Senha</string>
+
+    <string name="strCadCadastrar">Cadastrar</string>
+
+
+    <!-- tela principal-->
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
